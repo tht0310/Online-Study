@@ -1,0 +1,28 @@
+header {
+	background-color: gray;
+	padding: 35px;
+	color: white;
+}
+
+footer {
+	background-color: gray;
+	padding: 30px;
+	color: white;
+
+}
+
+aside {
+	width: 25%; 
+	float: left;
+}
+
+main {
+	width: 75%;
+	float: right;
+}
+
+section:after {
+	clear: both;
+	content: "";
+	display: block;
+}
